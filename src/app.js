@@ -52,8 +52,6 @@ app.get('/products', (req, res) => {
 })
 
 
-
-
 app.get('/weather', (req, res) => {
     const geocode = require('./../utils/geocode')
     const forecast = require('./../utils/forecast')
